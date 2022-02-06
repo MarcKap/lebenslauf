@@ -1,27 +1,22 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Kappeller Marco',
+  title: 'Junior Frontend Developer',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+    'Residence': 'Sterzhausen',
+    'Homepage': `<a href="http://MarcKap.github.io/lebenslauf">
                   <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
                   <span class="screen">wiki</span>
                 </a>`,
     'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['React', '++++'],
+    ['React-Native', '++++'],
+    ['Redux', '++++'],
+    ['TypeScript', '++++'],
+    ['HTML5', '++++'],
+    ['CSS3', '+++'],
+    ['Scrum', '++++'],
   ],
   plays: [
     {
@@ -49,7 +44,7 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
 `
     }
   ],
-  experience: [
+  Erfahrung: [
     {
       header: 'Performance',
       skills: ['theater', 'play'],
