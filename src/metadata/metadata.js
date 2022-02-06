@@ -10,7 +10,7 @@ module.exports = {
     'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
   },
   skills: [
-    ['React', '++++'],
+    ['React', '+++'],
     ['React-Native', '++++'],
     ['Redux', '++++'],
     ['TypeScript', '++++'],
