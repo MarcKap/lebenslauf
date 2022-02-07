@@ -3,18 +3,14 @@ module.exports = {
   title: 'Junior Frontend Developer',
   facts: {
     'Residence': 'Sterzhausen',
-    'Homepage': `<a href="http://MarcKap.github.io/lebenslauf">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Email': '<a href="kikakeks@gmx.de">umbra-lunae@web.de</a>'
   },
   skills: [
     ['React', '+++'],
     ['React-Native', '++++'],
-    ['Redux', '++++'],
+    ['Redux', '+++'],
     ['TypeScript', '++++'],
-    ['HTML5', '++++'],
+    ['HTML5', '+++'],
     ['CSS3', '+++'],
     ['Scrum', '++++'],
   ],
@@ -44,13 +40,11 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
 `
     }
   ],
-  Erfahrung: [
+  experience: [
     {
       header: 'Performance',
       skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      contents: ''
     },
     {
       header: 'Poetry',
