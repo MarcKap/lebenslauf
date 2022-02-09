@@ -17,8 +17,6 @@
     </head>
     <body>
         <div class="container page">
-            <div></div>
-            <div></div>
             <div class="row">
                 <div class="col-md-6 col-print-6">
                     <h1><b>{{ name }}</b><br />{{ title }}</h1>
@@ -139,6 +137,19 @@
 
                     {{{markdown contents }}}
 
+                    <h5>Meine Aufgaben:</h5>
+                    <ul>
+                        {{#each tasks}}
+                        <li>{{ this }}</li>
+                        {{/each}}
+                    </ul>
+                    <h5>Umfang des Projekts</h5>
+                    <p>Dauer meines Einsatzes: {{duration}}</p>
+                    <ul>
+                        {{#each scope}}
+                        <li>{{ this }}</li>
+                        {{/each}}
+                    </ul>
                     <div>
                         {{#each skills }}
                         <span class="badge badge-primary">{{ this }}</span>
