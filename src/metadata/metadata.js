@@ -8,7 +8,7 @@ module.exports = {
     },
     "E-Mail": {
       icon: "envelope",
-      text: '<a href="mailto:kikakeks@gmx.de">umbra-lunae@web.de</a>',
+      text: '<a href="mailto:marco-kappeller.lebenslauf@gmx.de">marco-kappeller.lebenslauf@gmx.de</a>',
     },
     Geburtstag: {
       icon: "star",
@@ -77,7 +77,7 @@ module.exports = {
       header: "Michel CNC Stellenangebote",
       skills: ["Wordpress", "HTML"],
       contents:
-        "Erstellen eines neuen Bereichs für Stellenangebote in einer bereits Vorhandenen Webseite, die mit Wordpress erstellt wurde ",
+        "Erstellen eines neuen Bereichs für Stellenangebote in einer bereits vorhandenen Webseite, die mit Wordpress erstellt wurde ",
       tasks: [
         "Eigenverantwortliches Umsetzen der Vorgaben",
         "Kommunikation mit dem Kunden",
@@ -110,7 +110,7 @@ module.exports = {
         "Graphisches Aufbereiten der Ergebnisse",
       ],
       duration: "6 Monate",
-      scope: ["4 Studentische Kräfte"],
+      scope: ["4 studentische Kräfte"],
     },
   ],
 };
