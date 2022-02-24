@@ -2,11 +2,25 @@
   white-space: nowrap;
 }
 
+.skill-row {
+  display: flex;
+  box-sizing: border-box;
+  flex: 10 0 80%;
+  flex-direction: row;
+}
+
+.col-notprint {
+  margin-right: 1em;
+  flex-direction: row;
+}
+
 @media print {
   body {
     font-size: 19px;
   }
-
+  .grey {
+    background-color: #9b9b9b;
+  }
   .screen {
     display: none;
   }
@@ -80,7 +94,9 @@ a .fa {
   h3 {
     margin-top: 15px;
   }
-
+  .skill-row {
+    padding-right: 8em;
+  }
   .place-on-next-page {
     page-break-before: always;
   }
