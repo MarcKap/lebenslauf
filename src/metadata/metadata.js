@@ -34,28 +34,30 @@ module.exports = {
     {
       title: "Umschulung zum Fachinformatiker Anwendungsentwicklung ",
       org: "Deutsche Angestellten Akademie Marburg",
-      datespan: "2020 -2022",
-      contents: "",
+      datespan: "02/2020 - 02/2022",
+      contents:
+        "2mt Software Solutions GmbH, Launsbach in Zusammenarbeit mit der Deutschen Angestellten Akademie, Marburg. Abschluss Projekt: Corona-App Daicy App zur Unterbrechung von Infektionsketten auf Basis von React-Native für den Main-Kinzig-Kreis.",
     },
     {
       title: "Diplom Soziologie Studium ",
       org: "Philipps Universität Marburg",
-      datespan: "2006 - 2016",
-      contents: "",
+      datespan: "10/2006 - 10/2016",
+      contents: "Philipps-Universität Marburg",
     },
     {
       title: "Diplom Chemie Studium",
       org: "Philipps Universität Marburg",
-      datespan: "2005 - 2006",
-      contents: "",
+      datespan: "10/2005 - 10/2006",
+      contents: "Philipps-Universität Marburg",
     },
     {
       title: "Abitur",
       org: "Philippinum Marburg",
-      datespan: "2002 - 2005",
-      contents: "",
+      datespan: "02/2002 - 06/2005",
+      contents: "Gymnasium Philippinum Marburg",
     },
   ],
+
   experience: [
     {
       header: "Corona-App Daicy",
@@ -113,4 +115,5 @@ module.exports = {
       scope: ["4 studentische Kräfte"],
     },
   ],
+  languages: [["Englisch, ", "verhandlungssicher"]],
 };

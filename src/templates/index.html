@@ -45,8 +45,46 @@
                             ></span
                         >
                     </p>
+
+                    <!-- START Skills -->
+                    <h3>Technische Skills</h3>
+                    <div class="row mb-4">
+                        {{#each techskills}}
+                        <div
+                            class="col-xs col-3 col-md-2 col-lg-1 text-right nowrap col-notprint"
+                            styles="margin-right:2px;"
+                        >
+                            <small>{{ this.[0] }}&nbsp</small>
+                        </div>
+
+                        <div
+                            class="col-print-3 col-3 col-md-2 col-lg-1 col-notprint"
+                        >
+                            {{ this.[1] }} <br />
+                        </div>
+                        {{/each}}
+                    </div>
+
+                    <h3>Methodische Skills</h3>
+                    <div class="row mb-4 skill-row">
+                        {{#each methodskills}}
+                        <div
+                            class="col-print-2 col-3 col-md-2 col-lg-1 text-right no-wrap"
+                            styles="margin-right:2px;"
+                        >
+                            <small>{{ this.[0] }}</small>
+                        </div>
+                        <div class="col-print-2 col-3 col-md-2 col-lg-1">
+                            {{ this.[1] }}
+                        </div>
+                        {{/each}}
+                    </div>
+                    <!-- END Skills -->
                 </div>
+
+                <!-- START Facts -->
                 <div class="col-md-6 col-print-6">
+                    <img src="me.jpg" height="220" width="160" />
                     <dl class="row">
                         {{#each facts}}
                         <dt class="col-md-3">
@@ -58,57 +96,9 @@
                     </dl>
                 </div>
             </div>
+            <!-- END Facts -->
 
-            <h3>Technische Skills</h3>
-            <div class="row mb-4">
-                {{#each techskills}}
-                <div
-                    class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap"
-                >
-                    <small>{{ this.[0] }}</small>
-                </div>
-                <div class="col-print-1 col-3 col-md-2 col-lg-1">
-                    {{ this.[1] }}
-                </div>
-                {{/each}}
-            </div>
-
-            <h3>Methodische Skills</h3>
-            <div class="row mb-4">
-                {{#each methodskills}}
-                <div
-                    class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap"
-                    styles="margin-right:2px;"
-                >
-                    <small>{{ this.[0] }}</small>
-                </div>
-                <div class="col-print-1 col-3 col-md-2 col-lg-1">
-                    {{ this.[1] }}
-                </div>
-                {{/each}}
-            </div>
-
-            <p></p>
-
-            <!-- <h2>Beruflicher Werdegang</h2>
-            {{#each jobs}}
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h3>{{ title }}</h3>
-                    <h4>{{ company }}</h4>
-                    <p class="text-muted">{{ datespan }}</p>
-
-                    {{{markdown contents }}}
-
-                    <div>
-                        {{#each badges }}
-                        <span class="badge badge-primary">{{ this }}</span>
-                        {{/each}}
-                    </div>
-                </div>
-            </div>
-            {{/each}} -->
-
+            <!-- START Education -->
             <h2>Bildungsweg</h2>
             {{#each education}}
             <div class="card mb-4">
@@ -127,9 +117,29 @@
                 </div>
             </div>
             {{/each}}
+            <!-- END Education -->
+
+            <!-- Start Miscellaneous -->
+            <h2>Sonstige Kenntnisse</h2>
+            <div class="card mb-4">
+                <h3>Fremsprachen</h3>
+                {{#each languages}}
+                <p>{{this.[0]}}{{this.[1]}}</p>
+                {{/each}}
+            </div>
+
+            <div class="card mb-4">
+                <h3>Interessen</h3>
+                {{#each hobbys}}
+                <p>{{{markdown contents}}}</p>
+                {{/each}}
+            </div>
+
+            <!-- END Miscellaneous -->
+
+            <!-- START Experience -->
 
             <h2 class="place-on-next-page">Projekterfahrung</h2>
-
             {{#each experience}}
             <div class="card mt-4">
                 <div class="card-body">
@@ -158,6 +168,12 @@
                 </div>
             </div>
             {{/each}}
+
+            <!-- End Experience -->
+            <p>
+                Lahntal, <time datetime="" class="text-muted">{{ today }}</time
+                ><img src="signature.png" widht="150" height="80" />
+            </p>
         </div>
     </body>
 </html>
