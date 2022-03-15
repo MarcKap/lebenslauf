@@ -58,7 +58,19 @@
       padding: 32px;
     }
   }
-
+  .signature {
+    display: flex;
+    flex-direction: column;
+  }
+  .end-of-page {
+    align-self: flex-start;
+  }
+  .image {
+    align-self: flex-end;
+  }
+  .end {
+    align-items: flex-end;
+  }
   h1,
   h2,
   h3,

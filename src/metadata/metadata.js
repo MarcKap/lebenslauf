@@ -37,24 +37,40 @@ module.exports = {
       datespan: "02/2020 - 02/2022",
       contents:
         "2mt Software Solutions GmbH, Launsbach in Zusammenarbeit mit der Deutschen Angestellten Akademie, Marburg. Abschluss Projekt: Corona-App Daicy App zur Unterbrechung von Infektionsketten auf Basis von React-Native für den Main-Kinzig-Kreis.",
+      details: [
+        "Überarbeiten des Frontends (nach rechtlichen Kriterien für Barrierefreiheit)",
+        "Rolle / Rechte für Testzentren im Backend",
+        "Zertifikate erweitern um Impfzertifikate ",
+        "Testen",
+        "Demonstration neuer Features beim Kunden",
+        "Qualitätssicherung",
+      ],
+      badges: [],
     },
+
     {
       title: "Diplom Soziologie Studium ",
       org: "Philipps Universität Marburg",
       datespan: "10/2006 - 10/2016",
       contents: "Philipps-Universität Marburg",
+      details: [],
+      badges: [],
     },
     {
       title: "Diplom Chemie Studium",
       org: "Philipps Universität Marburg",
       datespan: "10/2005 - 10/2006",
       contents: "Philipps-Universität Marburg",
+      details: [],
+      badges: [],
     },
     {
       title: "Abitur",
       org: "Philippinum Marburg",
       datespan: "02/2002 - 06/2005",
       contents: "Gymnasium Philippinum Marburg",
+      details: [],
+      badges: [],
     },
   ],
 
@@ -116,4 +132,5 @@ module.exports = {
     },
   ],
   languages: [["Englisch, ", "verhandlungssicher"]],
+  hobbys: ["Mitarbeit an Open-Source Softwareprojekten", "Fahrradfahren"],
 };

@@ -58,7 +58,7 @@
                         </div>
 
                         <div
-                            class="col-print-3 col-3 col-md-2 col-lg-1 col-notprint"
+                            class="col-print-1 col-3 col-md-2 col-lg-1 col-notprint"
                         >
                             {{ this.[1] }} <br />
                         </div>
@@ -108,7 +108,11 @@
                     <p class="text-muted">{{ datespan }}</p>
 
                     {{{markdown contents }}}
-
+                    <ul>
+                        {{#each details}}
+                        <li>{{ this }}</li>
+                        {{/each}}
+                    </ul>
                     <div>
                         {{#each badges }}
                         <span class="badge badge-primary">{{ this }}</span>
@@ -131,11 +135,16 @@
             <div class="card mb-4">
                 <h3>Interessen</h3>
                 {{#each hobbys}}
-                <p>{{{markdown contents}}}</p>
+                <p>{{{this}}}</p>
                 {{/each}}
             </div>
 
-            <!-- END Miscellaneous -->
+            <!-- END Miscellaneous --><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+            <p>
+                Lahntal, <time datetime="" class="text-muted">{{ today }}</time>
+            </p>
+            <p><img src="signature.png" widht="150" height="80" /></p>
 
             <!-- START Experience -->
 
@@ -170,10 +179,6 @@
             {{/each}}
 
             <!-- End Experience -->
-            <p>
-                Lahntal, <time datetime="" class="text-muted">{{ today }}</time
-                ><img src="signature.png" widht="150" height="80" />
-            </p>
         </div>
     </body>
 </html>
