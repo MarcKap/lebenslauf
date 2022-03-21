@@ -112,6 +112,13 @@ a .fa {
   .place-on-next-page {
     page-break-before: always;
   }
+  .white-space-1 {
+    margin-bottom: 110px;
+  }
+
+  .white-space-2 {
+    margin-top: 820px;
+  }
 
   .col-print-1 {
     flex: 0 0 8.333333%;
