@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- START Facts -->
-                <div class="col-md-6 col-print-6">
+                <div class="white-space-1 col-md-6 col-print-6">
                     <img src="me.jpg" height="220" width="160" />
                     <dl class="row">
                         {{#each facts}}
@@ -125,26 +125,31 @@
 
             <!-- Start Miscellaneous -->
             <h2>Sonstige Kenntnisse</h2>
-            <div class="card mb-4">
-                <h3>Fremsprachen</h3>
-                {{#each languages}}
-                <p>{{this.[0]}}{{this.[1]}}</p>
-                {{/each}}
+            <div class="card md-4">
+                <div class="card-body">
+                    <h3>Fremsprachen</h3>
+                    {{#each languages}}
+                    <p>{{this.[0]}}{{this.[1]}}</p>
+                    {{/each}}
+                </div>
+
+                <div class="card-body">
+                    <h3>Interessen</h3>
+                    {{#each hobbys}}
+                    <p>{{{this}}}</p>
+                    {{/each}}
+                </div>
             </div>
 
-            <div class="card mb-4">
-                <h3>Interessen</h3>
-                {{#each hobbys}}
-                <p>{{{this}}}</p>
-                {{/each}}
+            <!-- END Miscellaneous -->
+
+            <div class="white-space-2 print">
+                <p>
+                    Lahntal,
+                    <time datetime="" class="text-muted">{{ today }}</time>
+                </p>
+                <p><img src="signature.png" widht="150" height="80" /></p>
             </div>
-
-            <!-- END Miscellaneous --><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-            <p>
-                Lahntal, <time datetime="" class="text-muted">{{ today }}</time>
-            </p>
-            <p><img src="signature.png" widht="150" height="80" /></p>
 
             <!-- START Experience -->
 
